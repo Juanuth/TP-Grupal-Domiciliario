@@ -15,7 +15,6 @@ public class ObjectAdmin : MonoBehaviour
     void Start()
     {
 
-        DeactivateAll();
     }
 
     // Update is called once per frame
@@ -23,10 +22,5 @@ public class ObjectAdmin : MonoBehaviour
     {
 
     }
-   void DeactivateAll();
-    {
-    for (int i = 0; i < objetos.Length; i++)
-        
-    }
 }
-}
+
