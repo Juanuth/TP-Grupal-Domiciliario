@@ -16,9 +16,5 @@ public class ObjectScript : MonoBehaviour
      
   
     }
-    public void ()
-    {
-
-    }
 
 }
