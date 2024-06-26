@@ -4,13 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class GameManager : MonoBehaviour
+public class GameScript : MonoBehaviour
 {
 
     public GameObject[] derecha;
     public GameObject[] izquierda;
-    public Text text;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +20,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    public void DeactivateAll() {
-        for(int i = 0; i>derecha.Length; i++)
+    public void DeactivateAll()
+    {
+        for (int i = 0; i > derecha.Length; i++)
         {
+
+            Debug.Log(derecha[i].name);
             derecha[i].SetActive(false);
         }
         for (int i = 0; i > izquierda.Length; i++)
