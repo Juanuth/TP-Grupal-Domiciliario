@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PrecioScript : MonoBehaviour
 {
-    public int precioDerecha;
-    public int precioIzquierda;
+    public int precio;
     // Start is called before the first frame update
     void Start()
     {
