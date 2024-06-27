@@ -9,7 +9,8 @@ public class GameScript : MonoBehaviour
 
     public GameObject[] derecha;
     public GameObject[] izquierda;
-    
+    public int precioIzq;
+    public int precioDer;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class GameScript : MonoBehaviour
 
             Debug.Log(derecha[i].name);
             derecha[i].SetActive(false);
+
         }
         for (int i = 0; i < izquierda.Length; i++)
         {
