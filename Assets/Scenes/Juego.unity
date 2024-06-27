@@ -2143,7 +2143,7 @@ GameObject:
   - component: {fileID: 1513668381}
   - component: {fileID: 1513668380}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: precio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2189,7 +2189,7 @@ GameObject:
   - component: {fileID: 1520369441}
   - component: {fileID: 1520369440}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: 'Salir '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2920,7 +2920,7 @@ GameObject:
   - component: {fileID: 1713600315}
   - component: {fileID: 1713600314}
   m_Layer: 0
-  m_Name: Game
+  m_Name: Aleatoriedad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
