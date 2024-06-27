@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class PrecioScript : MonoBehaviour
 {
-    public int[] precio;
-    public Text Texto1;
-    public Text Texto2;
+    public int Precio;
+    public Text Texto;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +16,6 @@ public class PrecioScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Texto.text = Precio.ToString();
     }
 }
