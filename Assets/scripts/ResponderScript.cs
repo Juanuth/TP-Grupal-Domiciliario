@@ -13,7 +13,7 @@ public class ResponderScript : MonoBehaviour
         float Texto3 = System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2);
 
         if (Texto3 != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2)) {
-            DeactivateAll();
+// DeactivateAll();
         }
 
     }
