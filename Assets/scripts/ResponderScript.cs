@@ -10,16 +10,22 @@ public class ResponderScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float Texto3 = System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2);
-
-        if (Texto3 != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2)) {
-// DeactivateAll();
-        }
+      
 
     }
+   
+    public void OnButtonpressed()
+    {
+        float Texto3 = System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2);
 
-    // Update is called once per frame
-    void Update()
+        if (Texto3 != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2))
+        {
+            Debug.Log("resultado incorrecto");
+        }
+    }
+
+        // Update is called once per frame
+        void Update()
     {
         
     }

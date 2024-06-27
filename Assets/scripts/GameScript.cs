@@ -30,7 +30,6 @@ public class GameScript : MonoBehaviour
         for (int i = 0; i < derecha.Length; i++)
         {
 
-            Debug.Log(derecha[i].name);
             derecha[i].SetActive(false);
 
         }
