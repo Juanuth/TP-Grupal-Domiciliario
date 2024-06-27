@@ -13,6 +13,7 @@ public class GameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         DeactivateAll();
         ActivateRandom();
     }
@@ -24,13 +25,13 @@ public class GameScript : MonoBehaviour
     }
     public void DeactivateAll()
     {
-        for (int i = 0; i > derecha.Length; i++)
+        for (int i = 0; i < derecha.Length; i++)
         {
 
             Debug.Log(derecha[i].name);
             derecha[i].SetActive(false);
         }
-        for (int i = 0; i > izquierda.Length; i++)
+        for (int i = 0; i < izquierda.Length; i++)
         {
             izquierda[i].SetActive(false);
         }
