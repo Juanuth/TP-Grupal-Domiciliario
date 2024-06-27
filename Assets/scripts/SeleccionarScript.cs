@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BotonS : MonoBehaviour
+public class SeleccionarScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class BotonS : MonoBehaviour
         Invoke(nameof(LaunchGameScene), 1);
     }
 
-    void LaunchGameScene()
+    public void LaunchGameScene()
     {
         SceneManager.LoadScene("Juego");
     }

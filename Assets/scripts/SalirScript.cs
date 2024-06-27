@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SeleccionarScript : MonoBehaviour
+public class SalirScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -24,6 +24,6 @@ public class SeleccionarScript : MonoBehaviour
 
     public void LaunchGameScene()
     {
-        SceneManager.LoadScene("Juego");
+        SceneManager.LoadScene("SeleccionarJuegos");
     }
 }
