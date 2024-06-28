@@ -17,6 +17,11 @@ public class ReiniciarScript : MonoBehaviour
         
     }
 
+    private void OnMouseDown()
+    {
+        Invoke(nameof(LaunchGameScene), 1);
+    }
+
     public void LaunchGameScene()
     {
         SceneManager.LoadScene("Juego");
