@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ResponderScript : MonoBehaviour
 {
@@ -20,11 +21,11 @@ public class ResponderScript : MonoBehaviour
 
         if (System.Convert.ToInt32(Texto3.text) != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2.text))
         {
-            Debug.Log("resultado incorrecto");
+            Invoke(nameof(LaunchGameScene), 1);
         }
         else
         {
-            Debug.Log("resultado correcto");
+            Invoke(nameof(LoadGameScene), 1);
         }
 
     
@@ -34,5 +35,15 @@ public class ResponderScript : MonoBehaviour
         void Update()
     {
         
+    }
+
+    public void LaunchGameScene()
+    {
+        SceneManager.LoadScene("RespuestaIncorrecta");
+    }
+
+    public void LoadGameScene()
+    {
+        SceneManager.LoadScene("RespuestaCorrecta");
     }
 }
