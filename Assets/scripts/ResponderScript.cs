@@ -15,13 +15,19 @@ public class ResponderScript : MonoBehaviour
 
     }
    
-    public void OnButtonpressed()
+    public void Resultado()
     {
 
-        if (System.Convert.ToInt32(Texto3.text) != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2))
+        if (System.Convert.ToInt32(Texto3.text) != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2.text))
         {
             Debug.Log("resultado incorrecto");
         }
+        else
+        {
+            Debug.Log("resultado correcto");
+        }
+
+    
     }
 
         // Update is called once per frame
