@@ -629,7 +629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b6ef034f54d54c041ada71d6869a299d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b6ef034f54d54c041ada71d6869a299d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -819,7 +819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: b3bbd2d3ac011184ca198e9e97dae834, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b3bbd2d3ac011184ca198e9e97dae834, type: 3}
       propertyPath: m_LocalPosition.x
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 445486632}
   - component: {fileID: 445486631}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1174,7 +1174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f71c66fc7d659624e9907f907e9da2dc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f71c66fc7d659624e9907f907e9da2dc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1247,7 +1247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4738c8d91905ded4f82a2f939d116bd9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4738c8d91905ded4f82a2f939d116bd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1385,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 98afcda7cfcd4c2448ec2578297bb1fb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98afcda7cfcd4c2448ec2578297bb1fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1584,7 +1584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f71c66fc7d659624e9907f907e9da2dc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f71c66fc7d659624e9907f907e9da2dc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1932,7 +1932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3bc71d173f65f8c47971d1c1a34f1578, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bc71d173f65f8c47971d1c1a34f1578, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1993,7 +1993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4383f514df234dd4e9804440123eca2b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4383f514df234dd4e9804440123eca2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2327,7 +2327,7 @@ GameObject:
   - component: {fileID: 1527458125}
   - component: {fileID: 1527458124}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2405,7 +2405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4383f514df234dd4e9804440123eca2b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4383f514df234dd4e9804440123eca2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2561,7 +2561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 6988d08dac911e3488555d723c570409, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 6988d08dac911e3488555d723c570409, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2703,7 +2703,7 @@ GameObject:
   - component: {fileID: 1629094233}
   - component: {fileID: 1629094232}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2911,8 +2911,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fbeac7a0294e264387a11c34e17fd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Texto1: {fileID: 0}
-  Texto2: {fileID: 0}
+  Texto1: {fileID: 1527458124}
+  Texto2: {fileID: 445486631}
+  Texto3: {fileID: 1629094232}
 --- !u!4 &1658690305
 Transform:
   m_ObjectHideFlags: 0
@@ -3019,7 +3020,18 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
@@ -3273,7 +3285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 98afcda7cfcd4c2448ec2578297bb1fb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98afcda7cfcd4c2448ec2578297bb1fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3423,7 +3435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4738c8d91905ded4f82a2f939d116bd9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4738c8d91905ded4f82a2f939d116bd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3648,7 +3660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b6ef034f54d54c041ada71d6869a299d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b6ef034f54d54c041ada71d6869a299d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3721,7 +3733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3bc71d173f65f8c47971d1c1a34f1578, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bc71d173f65f8c47971d1c1a34f1578, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3782,7 +3794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: b3bbd2d3ac011184ca198e9e97dae834, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b3bbd2d3ac011184ca198e9e97dae834, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3855,7 +3867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 6988d08dac911e3488555d723c570409, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 6988d08dac911e3488555d723c570409, type: 3}
       propertyPath: m_LocalPosition.x
