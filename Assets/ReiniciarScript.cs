@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ReiniciarScript : MonoBehaviour
 {
@@ -14,5 +15,10 @@ public class ReiniciarScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void LaunchGameScene()
+    {
+        SceneManager.LoadScene("Juego");
     }
 }
