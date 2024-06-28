@@ -27,6 +27,10 @@ public class ResponderScript : MonoBehaviour
         {
             Invoke(nameof(LoadGameScene), 1);
         }
+        if (Texto3.text == "")
+        {
+            Invoke(nameof(StartGameScene), 1);
+        }
 
     
     }
@@ -45,5 +49,10 @@ public class ResponderScript : MonoBehaviour
     public void LoadGameScene()
     {
         SceneManager.LoadScene("RespuestaCorrecta");
+    }
+
+    public void StartGameScene()
+    {
+        SceneManager.LoadScene("RespuestaNula");
     }
 }
