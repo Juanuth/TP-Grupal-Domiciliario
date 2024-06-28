@@ -8,13 +8,18 @@ public class SalirScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke(nameof(LaunchGameScene), 1);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+        Invoke(nameof(LaunchGameScene), 1);
     }
 
     public void LaunchGameScene()
