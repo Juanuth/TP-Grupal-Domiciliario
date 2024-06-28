@@ -2882,6 +2882,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643768947}
   m_CullTransparentMesh: 0
+--- !u!1 &1658690303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658690305}
+  - component: {fileID: 1658690304}
+  m_Layer: 0
+  m_Name: Reponder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1658690304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658690303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbeac7a0294e264387a11c34e17fd81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Texto1: {fileID: 0}
+  Texto2: {fileID: 0}
+--- !u!4 &1658690305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658690303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 532.48, y: 384, z: 430.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1661288368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3064,8 +3109,6 @@ MonoBehaviour:
   - {fileID: 1865434211}
   - {fileID: 1550718290}
   - {fileID: 136379643}
-  precioIzq: 0
-  precioDer: 0
 --- !u!4 &1713600315
 Transform:
   m_ObjectHideFlags: 0

@@ -9,8 +9,7 @@ public class GameScript : MonoBehaviour
 
     public GameObject[] derecha;
     public GameObject[] izquierda;
-    public int precioIzq;
-    public int precioDer;
+
 
     // Start is called before the first frame update
     void Start()
