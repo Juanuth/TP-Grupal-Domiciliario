@@ -12,6 +12,7 @@ public class ResponderScript : MonoBehaviour
     public GameObject panel1;
     public GameObject panel2;
     public GameObject Canvas;
+    public GameObject Canvas2;
   
     // Start is called before the first frame update
     void Start()
@@ -28,18 +29,17 @@ public class ResponderScript : MonoBehaviour
 
         if (System.Convert.ToInt32(Texto3.text) != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2.text))
         {
+
             panel1.SetActive(true);
             Canvas.SetActive(false);
+            
         }
         else
         {
             panel2.SetActive(true);
             Canvas.SetActive(false);
         }
-        if (Texto3.text == "")
-        {
-            //respuesta vacia
-        }
+      
 
     
     }
