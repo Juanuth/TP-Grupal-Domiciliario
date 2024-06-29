@@ -9,27 +9,36 @@ public class ResponderScript : MonoBehaviour
     public Text Texto1;
     public Text Texto2;
     public Text Texto3;
+    public GameObject panel1;
+    public GameObject panel2;
+    public GameObject Canvas;
+  
     // Start is called before the first frame update
     void Start()
     {
+        panel1.SetActive(false);
+        panel2.SetActive(false);
       
 
     }
+    
    
     public void Resultado()
     {
 
         if (System.Convert.ToInt32(Texto3.text) != System.Convert.ToInt32(Texto1.text) + System.Convert.ToInt32(Texto2.text))
         {
-            Invoke(nameof(LaunchGameScene), 1);
+            panel1.SetActive(true);
+            Canvas.SetActive(false);
         }
         else
         {
-            Invoke(nameof(LoadGameScene), 1);
+            panel2.SetActive(true);
+            Canvas.SetActive(false);
         }
         if (Texto3.text == "")
         {
-            Invoke(nameof(StartGameScene), 1);
+            //respuesta vacia
         }
 
     

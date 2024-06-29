@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Juego.unity
     guid: 7ee64693eda911040b479181de8b79ff
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/RespuestaCorrecta.unity
     guid: fb72695bf3136824ab7b81a833306e8c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/RespuestaIncorrecta.unity
     guid: 18f4d379ec2ab074396858df450a4db3
   - enabled: 1
